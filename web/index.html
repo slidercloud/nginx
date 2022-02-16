@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Docker HTML Starter</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-size: 20px;
+font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+
+.header {
+  background-color: #4269f5;
+  padding: 50px 0px;
+  text-align: center;
+  color: white;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #000;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>NGINX Static</h2>
+  <p>Deploy NGINX server using Docker</p>
+</div>
+
+<div id="navbar">
+  <a class="active"><b>Cloutty Edge App</b></a>
+  <a class="" href="https://on.cloutty.com/edge-docs">Private Documentation</a>
+</div>
+
+<div class="content">
+  <h3>Docker NGINX</h3>
+  <p>Index.html is the default file served when a request to port :8000 is made. However, you can also serve files like MP4 videos, images, etc..</p>
+  <p>By default, it is served using unsecure HTTP protocol. You can add SSL to your NGINX server using a free certificate from <a href="https://letsencrypt.org/">Let's Encrypt</a>.</p>
+  <p>We highly recommend adding SSL certificate before deploying to production. If you deploy this site on Cloutty Edge Delivery, we'll provide you with a free SSL certificate.</p>
+  <p>Each time you add new files you'll have to rebuild and restart the docker container.</p>
+  <p>The same applies to Cloudflared tunnels.</p>
+  <p>Use of the Cloutty Edge Service is governed by local laws and the <a href="https://github.com/modaspring/policies/README.md">Modaspring Cloud Policies</a>.</p>
+  <p><i>Kind regards,<br>Your friends @ Cloutty</i></p>
+  <h1>2022</h1>
+
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>
