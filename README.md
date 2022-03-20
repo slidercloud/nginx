@@ -51,6 +51,6 @@ _____
 
 # Create an image for NGINX
 Now that Docker is installed and fully working. Clone this repository (requires Git)
+
     git clone https://github.com/airtheo/docker-nginx.git
-    //cd into the project
     cd docker-nginx
