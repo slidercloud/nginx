@@ -67,5 +67,7 @@ Browsing to http://<ip>:8000/ should render the following HTML page.
 | CPU Cores | 1vCPU | 1vCPU |
 | Persistent Storage | 20GB HDD | 40GB HDD |
 | Bandwidth | $0,04 per GB | $0,04 per GB |
-| Monthly pricing | $10/mo | $20 |
+| Monthly pricing | $10 | $20 |
 | Hourly pricing | $0,014 | $0,027 |
+
+*Note that pricing is based on usage. Right now, the Service is only available to invited beta testers and select partners.
