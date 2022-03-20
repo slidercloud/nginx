@@ -4,7 +4,7 @@ The following documentation covers the workaround on how to get a Docker NGINX c
 ## Install Docker on your (Ubuntu Server 21.10) VM
 Paste the following commands into your machine's terminal to connect to your VM.
 
-    $ sudo ssh username@ipv4-adress
+    $ sudo ssh <username>@<server-dc-id>
 
 Once connected, we'll download Docker from the cloud.
 
