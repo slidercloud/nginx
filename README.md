@@ -49,7 +49,10 @@ This command downloads a test image and runs it in a container. When the contain
 _____
 
 # Create an image for NGINX
-Now that Docker is installed and fully working. Clone this repository (requires Git)
+Now that Docker is installed and fully working. Clone this repository (requires Git and Docker Compose).
 
     $ git clone https://github.com/airtheo/docker-nginx.git
     $ cd docker-nginx
+    $ sudo docker build -t docker-static . // builds your image
+    // start your Docker container on port 8000 (Running locally on port 90 like specified in nginx.config)
+    $ sudo docker run -p 8000:90 docker-static
