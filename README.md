@@ -49,7 +49,8 @@ This command downloads a test image and runs it in a container. When the contain
 
 _____
 
-    Now that Docker is installed and fully working. Clone this repository (requires Git)
+# Create an image for NGINX
+Now that Docker is installed and fully working. Clone this repository (requires Git)
     git clone https://github.com/airtheo/docker-nginx.git
     //cd into the project
     cd docker-nginx
