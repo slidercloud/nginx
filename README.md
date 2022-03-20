@@ -36,6 +36,15 @@ Use the following command to set up the stable repository.
 
 *Sudo will prompt you to enter your admin password.
 
+## Install Docker Engine
+
+    sudo apt-get update
+    sudo apt-get install docker-ce docker-ce-cli containerd.io
+    
+Verify that Docker Engine is installed correctly by running the `hello-world` image.
+
+    sudo docker run hello-world
+
 _____
 `git clone https://github.com/airtheo/docker-nginx.git`
 
