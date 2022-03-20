@@ -59,3 +59,10 @@ Now that Docker is installed and fully working. Clone this repository (requires 
     
 Browsing to http://<ip>:8000/ should render the following HTML page.
 ![Browser tab safari](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5558556a-588c-467c-815a-d59c59677fa0/Screen_Shot_2022-02-16_at_21.45.07.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220320%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220320T133847Z&X-Amz-Expires=86400&X-Amz-Signature=41aa07da8717a986dc62deaaaf0aa9faf8ce700e7f513f12e790e103131cc116&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Screen%2520Shot%25202022-02-16%2520at%252021.45.07.png%22&x-id=GetObject)
+
+# Pricing for Cloutty Edge Delivery (1 Point of Presence)
+| Paris |   |   |   |   |
+|---|---|---|---|---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
