@@ -44,8 +44,12 @@ Use the following command to set up the stable repository.
 Verify that Docker Engine is installed correctly by running the `hello-world` image.
 
     sudo docker run hello-world
+    
+This command downloads a test image and runs it in a container. When the container runs, it prints a message and exits.
 
 _____
-`git clone https://github.com/airtheo/docker-nginx.git`
 
-`cd docker-nginx`
+    Now that Docker is installed and fully working. Clone this repository (requires Git)
+    git clone https://github.com/airtheo/docker-nginx.git
+    //cd into the project
+    cd docker-nginx
