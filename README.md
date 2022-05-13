@@ -58,16 +58,4 @@ Now that Docker is installed and fully working. Clone this repository (requires 
     $ sudo docker run -p 8000:90 docker-static
     
 Browsing to [127.0.0.1](http://127.0.0.1:8000/index.html) should render the following HTML page.
-![Browser tab safari](https://s3.slider.work/RAW-QhGt2fqeUl/raw)
-
-# Pricing for Cloutty Edge Delivery (1 Point of Presence)
-| VM Pricing | Starter | Small Business |
-|---|---|---|
-| Memory | 1GB | 2GB |
-| CPU Cores | 1vCPU | 1vCPU |
-| Persistent Storage | 20GB HDD | 40GB HDD |
-| Bandwidth | $0,04 per GB | $0,04 per GB |
-| Monthly pricing | $10 | $20 |
-| Hourly pricing | $0,014 | $0,027 |
-
-*Note that pricing is based on usage. Right now, the Service is only available to invited beta testers and select partners.
+![68747470733a2f2f73332e736c696465722e776f726b2f5241572d5168477432667165556c2f726177](https://user-images.githubusercontent.com/77065617/168328198-c14ea338-e1b4-4118-a9a3-6f241fb940fa.jpeg)
